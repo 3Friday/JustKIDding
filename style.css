@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: helvetica,verdana,arial,sans-serif;
+  background-size: cover;
 }
 
 h1 {
@@ -23,15 +24,37 @@ h2 {
   float: left;
 }
 
+.home .left {
+  width:  48%;
+}
+
 .right {
   display: block;
   width: 20%;
   float: right; 
 }
 
+.home .right {
+  width:  48%;
+  margin: 40px;
+}
+
 .main {
   display: block;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.story{
+  text-align: center;
+  background-color: white;
+}
+
+header{
+  display: block;
+  text-align: center;
+  background:white;
+  color: blue;
+  height: 3%;  
 }
 
