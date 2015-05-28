@@ -22,6 +22,7 @@ h2 {
   display: block;
   width: 20%;
   float: left;
+  background-color: green;
 }
 
 .home .left {
@@ -31,7 +32,10 @@ h2 {
 .right {
   display: block;
   width: 20%;
-  float: right; 
+  float: right;
+  background-color: LightSalmon;
+  overflow-y: scroll;
+  height: 70vh;
 }
 
 .home .right {
@@ -50,7 +54,7 @@ h2 {
   background-color: white;
 }
 
-header{
+header {
   display: block;
   text-align: center;
   background:white;
@@ -58,3 +62,10 @@ header{
   height: 3%;  
 }
 
+img {
+  height: 75vh;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
