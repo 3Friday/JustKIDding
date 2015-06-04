@@ -38,6 +38,15 @@ h2 {
   height: 70vh;
 }
 
+.right2 {
+  display: block;
+  width: 20%;
+  float: right;
+  background-color: LightSalmon;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
 .home .right {
   width:  48%;
   margin: 40px;
