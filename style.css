@@ -8,6 +8,33 @@ html, body {
   background-size: cover;
 }
 
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #030927;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 100px;
+  text-align: left;
+}
+
+li {
+  display:inline-block;
+  margin-left: 10px;
+  background-color: #3E8FB9;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+li:hover {
+  background-color: grey;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 2%;
