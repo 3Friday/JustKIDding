@@ -32,7 +32,7 @@ li {
 }
 
 li:hover {
-  background-color: grey;
+  background-color: #808080;
 }
 
 h1 {
@@ -87,7 +87,19 @@ h2 {
 
 .story{
   text-align: center;
-  background-color: white;
+  background-color: #254663;
+  opacity: 0.5;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 8px;
+  border: 2px solid #3983AC;
+  padding: 20px;
+  text-indent: justify;
+}
+
+.story h1 {
+  font-weight: bold;
 }
 
 header {
