@@ -134,3 +134,14 @@ img {
   width:  40%;
   margin: 100px;
 }
+
+/*Levels page*/
+.levels {
+  color: white;
+  background: green;
+  margin-top: 40px;
+}
+
+.levels a:visited{
+  color:pink;
+}
