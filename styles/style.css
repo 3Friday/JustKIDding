@@ -46,10 +46,21 @@ ul {
   border-bottom: 1px solid grey;
   border-radius: 10px;
   padding: 5px;
+  text-decoration: none;
 }
 
 .menu li:hover {
   background-color: #808080;
+  color: yellow;
+}
+
+.menu li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a{
+  text-decoration: none;
 }
 
 h1 {
