@@ -120,6 +120,11 @@ img {
   margin-right: auto;
 }
 
+.boldtext {
+  font-size: 100px;
+  color: pink;
+}
+
 /*Home page*/
 
 .village{
