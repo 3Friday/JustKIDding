@@ -31,6 +31,10 @@ ul {
   list-style-type: none;
 }
 
+button{
+    margin: 0 auto;
+}
+
 .menu {
   list-style-type: none;
   margin-left: 100px;
