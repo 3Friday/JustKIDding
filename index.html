@@ -12,20 +12,27 @@
 
 <body style=background:black>
 <!-- You have already seen the menu that helps you go on any page that you want. Here is how it looks expressed in code. It is enclosed in a nav tag, short for navigation and since we decided to put it on top, it is also in a header tag. Take a look! -->
+	<header>
 	<nav>
 		<ul class="menu">
 		<li><a href=about.html>About the Project</a></li>
-		<li>How it works</li>
+		<li><a href="howitworks.html">How it works</a></li>
 		<li><a href="levels.html">Levels</a></li>
 		<li>How far are you</li>
 		</ul>
 	</nav>
-	<h1 style = color:white>justKIDding</h1>
+	<div class = "signing">
+		<a href="#" class = "signup">Create an account</a>
+		<a href="#" class = "login">Sign in</a>
+	</div>
+	</header>
+	<div class = "wrapper" style = "padding:5%">
 	<!-- The divs allow you to group a certain number of elements as we did here with a little text (in a paragraph), button and an image (for which the tag is unsurprisingly img. -->
 	<div>
-		<p style=color:green>You have a fun project to share with the world? You want to automate your homework? Or make a game? Do you want to learn how to make your own page? Coding can help!</p>
-		<a href="home.html" class="boldtext">Let the journey begin!</a>
+		<p style="color:green; font-weight:bold; font-size:27px;">You have a fun project to share with the world? You want to automate your homework? Or make a game? Do you want to learn how to make your own page? Coding can help!</p>
+		<a href="home.html" class="boldtext" style="text-decoration:none; margin:0 7%;">Let the journey begin!</a>
 		<img src="media/skeleton_animation.gif" alt="Skeleton welcomes you!" style=height:300px>
 	</div>
+</div>
 </body>
 </html>
