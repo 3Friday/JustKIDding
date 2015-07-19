@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<link href="../styles/style.css" rel="stylesheet" type="text/css">
+	<title>Responsive web design</title>
+    <h1>justKIDding</h1>
+</head>
+<body>
+	<div class="left">
+		<h2>Tags Box</h2>
+		<ul style="list-style-type:none">
+			<h3>What is responsive design?</h3>
+			<li>Do you use a desktop computer, a laptop, a tablet or a phone? What is your device?</li>
+			<li>Do you choose an object with a mouse or by touch?</li>
+			<li>What is a media query?</li>
+			<li>What are relative (%, em) and absolute (px, points) units?</li>
+		</ul>
+	</div>
+	<div class="right">
+		<h2>Your Creation</h2>
+		<p class="head">&lt;head&gt;Head&lt;head&gt;</p>
+		<p class="title">&lt;title&gt;Title&lt;title&gt;</p>
+		<p class="body">&lt;body&gt;Body</p>
+		<p>&lt;nav class = "menu"&gt;One of the main thing you will want to review is the menu.&lt;nav&gt;</p>
+		<p>&lt;img ...and images.&gt;</p>
+		<p>&lt;body&gt;</p>
+	</div>
+	<div class="right2">
+		<h2>Your Style</h2>
+		<p>We already have arranged our elements but now the screen is too small.</p>
+		@media all and (min-width: 800px) and (max-width: 1024px) {<br>
+		...;<br>
+		...;<br>
+		...;<br>
+		}
+		<p>This tells the browser that if the window, also called viewport, is bigger than 800 pixels and smaller than 1024 pixels, to use the rules above.</p>
+		<p>Other case is when we are on a device that we can flip.</p>
+		@media only screen and (orientation: portrait) {<br>
+		...;<br>
+		...;<br>
+		...;<br>
+		}
+	</div>
+	<div class="main">
+		<h2>Playground</h2>
+		<img src="../media/skeleton_styling.png" alt="Skeleton with style">
+	</div>
+	
+</body>
+</html>
