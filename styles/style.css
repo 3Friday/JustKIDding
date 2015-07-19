@@ -196,6 +196,11 @@ img {
   margin-top: 10px;
 }
 
+.signing a:hover {
+  background-color: #808080;
+  color: yellow;
+}
+
 .howworks{
   display: block;
   margin: 0 40%;
