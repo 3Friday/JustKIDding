@@ -83,7 +83,7 @@ h2 {
 
 .left {
   display: block;
-  width: 20%;
+  width: 25%;
   float: left;
   background-color: green;
   border-radius: 8px;
@@ -157,6 +157,7 @@ img {
   border: 2px solid #3983AC;
   padding: 20px;
   text-indent: justify;
+  overflow: hidden;
 }
 
 .story h1 {
@@ -169,6 +170,12 @@ img {
 }
 
 /*Levels page*/
+
+table {
+  border: 2px solid white;
+  width: 100%;
+}
+
 .levels {
   color: white;
   background: #386638;
