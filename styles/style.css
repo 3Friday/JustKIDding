@@ -139,7 +139,8 @@ img {
 /*Home page*/
 
 .village{
-  margin-top:100px;
+  background: url("../media/village.png") no-repeat;
+  height: 80%;
 }
 
 .home .left{
@@ -158,6 +159,7 @@ img {
   padding: 20px;
   text-indent: justify;
   overflow: hidden;
+  margin: 0px;
 }
 
 .story h1 {
@@ -167,6 +169,10 @@ img {
 .home .right {
   width:  40%;
   margin: 100px;
+}
+
+.clear{
+  clear: both;
 }
 
 /*Levels page*/
@@ -179,7 +185,6 @@ table {
 .levels {
   color: white;
   background: #386638;
-  margin-top: 40px;
 }
 
 .levels a:visited{
@@ -208,8 +213,20 @@ table {
   color: yellow;
 }
 
+.center-btn{
+  display: block;
+  margin: 0 40%;
+  text-align: center;
+  padding:10px;
+  background-color: #66FF66;
+  border-radius: 10px;
+  border:2px solid #009900;
+  color:white;
+  font-weight: bold;
+}
+
 .howworks{
   display: block;
   margin: 0 40%;
-  text-align:center;
+  text-align: center;
 }
