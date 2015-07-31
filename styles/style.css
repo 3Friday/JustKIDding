@@ -8,6 +8,39 @@ html, body {
   background-size: cover;
 }
 
+.banner{
+  background-color: #C2A7C8;
+}
+
+.banner .signup{
+  float: right;
+  margin-right: 3px;
+}
+
+.banner p{
+  margin: 0;
+  padding:0.25em;
+  font-size: 1.6em;
+  color:white;
+  display:inline-block;
+}
+
+#tagline{
+  color:pink;
+  font-size: 0.8em;
+  vertical-align: center;
+  font-weight: bold;
+}
+
+.banner a{
+  color: white;
+  text-decoration: none;
+}
+
+.banner a:hover{
+  background-color: pink;
+}
+
 header {
   display: block;
   text-align: center;
@@ -238,10 +271,33 @@ table {
 
 .wrapper {
   margin-left: 2em;
+  margin-right: 2em;
 }
 
 .how_works {
   list-style-type: square;
 }
 
+.how_works p{
+  color: #2D2D2D;
+}
 
+.sent_to_friend{
+  margin-top: 3em;
+  padding: 1em;
+  text-align: center;
+  font-size: 3em;
+  color:pink;
+  font-weight: bold;
+  background-color:#2D2D2D;
+  text-shadow: 2px 2px 2px #C2A7C8;
+}
+
+.notworking{
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  margin-top: 3px;
+}
