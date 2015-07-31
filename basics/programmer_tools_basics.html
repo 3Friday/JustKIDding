@@ -5,21 +5,27 @@
     <h1>justKIDding</h1>
 </head>
 <body>
-	Choose your browser:
+	<p>The browser is the program you use to see the internet. You click its icons each time you want to open a page. Now we will show you some cool stuff that it can help you do.</p>
+	<p>Choose your browser:</p>
 	<form>
-		<input type="radio" name="browser" value="IE" checked>Internet explorer
-		<br>
-		<input type="radio" name="browser" value="Chrome">Chrome
-		<br>
-		<input type="radio" name="browser" value="Mozilla">Mozilla
-		<br>
-		<input type="radio" name="browser" value="other">Other
-		<br>
-		<input type="radio" name="browser" value="undefined">Don't know (We will try to find out for you!)
-	</form>
+		<li style = "list-style-type:none" class="browsers">
+			<input type="radio" name="browser" value="IE" id="IE" checked>Internet explorer
+			<p class="IE" style = "display:none">Click on the keyboard button F12 or go to the menu and click F12 Developer Tools</p>
+		</li>
 
-	<p class="IE">Click on the keyboard button F12 or go to the menu and click F12 Developer Tools</p>
-	<p class="Chrome">Click on the keyboard button F12 or go to the menu icon with the 3 lines on the top right, then select Tools>Programmer tools</p>
-	<p class="Mozilla">Click on the keyboard button F12 or go to the menu icon with the 3 lines on the top right, then select Developper>Inspector</p>
+		<li style = "list-style-type:none" class="browsers">
+			<input type="radio" name="browser" value="Chrome" id="Chrome">Chrome
+			<p class="Chrome" style = "display:none">Click on the keyboard button F12 or go to the menu icon with the 3 lines on the top right, then select Tools>Programmer tools</p>
+		</li>
+		
+		<li style = "list-style-type:none" class="browsers">
+			<input type="radio" name="browser" value="Mozilla" id="Mozilla">Mozilla
+			<p class="Mozilla" style = "display:none">Click on the keyboard button F12 or go to the menu icon with the 3 lines on the top right, then select Developper>Inspector</p>
+		</li>
+		
+		<li style = "list-style-type:none" class="browsers"><input type="radio" name="browser" value="other">Other</li>
+		
+		<li style = "list-style-type:none" class="browsers"><input type="radio" name="browser" value="undefined">Don't know (We will try to find out for you!)</li>
+	</form>
 </body>
 </html>
