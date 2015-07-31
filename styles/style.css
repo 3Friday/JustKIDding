@@ -132,8 +132,9 @@ img {
 }
 
 .boldtext {
-  font-size: 100px;
+  font-size: 5em;
   color: pink;
+  text-shadow: 5px 5px 5px #C2A7C8;
 }
 
 /*Home page*/
@@ -230,3 +231,17 @@ table {
   margin: 0 40%;
   text-align: center;
 }
+
+.about {
+ background-color: #66FFC1 
+}
+
+.wrapper {
+  margin-left: 2em;
+}
+
+.how_works {
+  list-style-type: square;
+}
+
+
