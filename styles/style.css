@@ -106,6 +106,7 @@ button{
 
 .menu li a{
   text-decoration: none;
+  padding: 10px;
 }
 
 h1 {
@@ -303,4 +304,9 @@ table {
   display: block;
   text-align: center;
   margin-top: 3px;
+}
+
+.small{
+  font-variant: small-caps;
+  font-size: 18px;
 }
