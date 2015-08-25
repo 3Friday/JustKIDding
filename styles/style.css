@@ -214,6 +214,13 @@ img {
   clear: both;
 }
 
+audio {
+    background-color: #95B9C7;
+    padding:4px;
+    border: red dotted 2px;
+    border-radius: 10px;
+}
+
 /*Levels page*/
 
 table {
@@ -227,7 +234,7 @@ table {
 }
 
 .levels a:visited{
-  color:orange;
+  color:salmon;
 }
 
 .signup, .login {
