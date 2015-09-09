@@ -8,6 +8,11 @@ html, body {
   background-size: cover;
 }
 
+::selection{
+  background-color: pink;
+  color: white;
+}
+
 .banner{
   background-color: #C2A7C8;
 }
